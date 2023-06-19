@@ -1,0 +1,72 @@
+D:\Harman1\Copyfy\bin\Debug\net6.0-windows\Copyfy.exe
+D:\Harman1\Copyfy\bin\Debug\net6.0-windows\Copyfy.deps.json
+D:\Harman1\Copyfy\bin\Debug\net6.0-windows\Copyfy.runtimeconfig.json
+D:\Harman1\Copyfy\bin\Debug\net6.0-windows\Copyfy.dll
+D:\Harman1\Copyfy\bin\Debug\net6.0-windows\Copyfy.pdb
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.AssemblyReference.cache
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.Properties.Resources.resources
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.CustomButton.resources
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.MainForm.resources
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.GenerateResource.cache
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfoInputs.cache
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfo.cs
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.CoreCompileInputs.cache
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.dll
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\refint\Copyfy.dll
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.pdb
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.genruntimeconfig.cache
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\ref\Copyfy.dll
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.Control.PathControl.resources
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.DirControl.resources
+D:\Harman1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.LoadingScreen.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\bin\Debug\net6.0-windows\Copyfy.exe
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\bin\Debug\net6.0-windows\Copyfy.deps.json
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\bin\Debug\net6.0-windows\Copyfy.runtimeconfig.json
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\bin\Debug\net6.0-windows\Copyfy.dll
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\bin\Debug\net6.0-windows\Copyfy.pdb
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.AssemblyReference.cache
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.Properties.Resources.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.CustomButton.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.DirControl.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.Control.PathControl.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.LoadingScreen.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.MainForm.resources
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.GenerateResource.cache
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfoInputs.cache
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfo.cs
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.CoreCompileInputs.cache
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.dll
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\refint\Copyfy.dll
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.pdb
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.genruntimeconfig.cache
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\ref\Copyfy.dll
+C:\Users\deckhardt\OneDrive - HARMAN\Dokumentumok\Copyfy1\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.ExtractionScreen.resources
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Copyfy.exe
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Copyfy.deps.json
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Copyfy.runtimeconfig.json
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Copyfy.dll
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Copyfy.pdb
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.AssemblyReference.cache
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.Properties.Resources.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.CustomButton.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.DirControl.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.ExtractionScreen.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.LoadingScreen.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.MainForm.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.GenerateResource.cache
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfoInputs.cache
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.AssemblyInfo.cs
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.CoreCompileInputs.cache
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.dll
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\refint\Copyfy.dll
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.pdb
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.genruntimeconfig.cache
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\ref\Copyfy.dll
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\Renci.SshNet.dll
+D:\Softwares\Copyfy1.0\Copyfy\bin\Debug\net6.0-windows\SshNet.Security.Cryptography.dll
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.csproj.CopyComplete
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.Control.ItemControl.resources
+D:\Softwares\Copyfy1.0\Copyfy\obj\Debug\net6.0-windows\Copyfy.View.Control.CompareControl.resources
