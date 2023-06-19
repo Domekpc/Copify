@@ -1,4 +1,4 @@
-# Copify
+# Copyfy
 
 The program Copyfy is an application tool that allows you to copy in Windows and extract files in Linux using SSH protocol. Here is some information on how to use Copyfy:
 To copy a file, you will need to open "SourcePath" and navigate to the location of the file you want to copy. Once you selected the correct directory, click "Select".
