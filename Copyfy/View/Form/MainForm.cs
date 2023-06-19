@@ -6,15 +6,7 @@ using System.Runtime;
 using System.IO;
 using System.Diagnostics;
 using Microsoft.VisualBasic.Logging;
-/*
 
-UI wpf-ben újraírni
-
-hiba esetén többször újrapróbálni
-
-storageben automation esetén letiltani a mb-okat
-
-*/
 namespace Copyfy
 {
     public partial class MainForm : Form

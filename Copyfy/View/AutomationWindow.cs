@@ -142,22 +142,26 @@ namespace Copyfy.View
         }
         private void Load()
         {
+            // Load file data into the 'compareControls' and convert them into 'CompareControl' objects.
             compareControls.LoadFromFileSeparately(comparePath, path => { return new CompareControl(path[0], path[1]); });
 
             try
             {
-                using (StreamReader sr = new StreamReader(nasData))
+                using (StreamReader sr = new StreamReader(nasData))// Use 'StreamReader' to read the 'nasData' file.
                 {
                     string data = sr.ReadLine();
-                    if (data.Any(char.IsLetter))
+
+                    if (data.Any(char.IsLetter))// Check if any characters in the data are letters.
                     {
                         string[] words = data.Split(';');
 
+                        // Fill TextBoxes with data from words array.
                         ipAddressTextBox.Text = words[0];
                         userNameTextBox.Text = words[1];
                         passwordTextBox.Text = words[2];
                         timeOfCheckTextBox.Text = words[3];
 
+                        // Parse the hour and minute from the 'timeOfCheckTextBox' text.
                         hour = int.Parse(timeOfCheckTextBox.Text.Substring(0, timeOfCheckTextBox.Text.IndexOf(":")));
                         minute = int.Parse(timeOfCheckTextBox.Text.Substring(timeOfCheckTextBox.Text.IndexOf(":") + 1));
                     }
@@ -286,21 +290,11 @@ namespace Copyfy.View
                     OnOff.button.FlatAppearance.MouseDownBackColor = Color.Green;
                     OnOff.button.FlatAppearance.MouseOverBackColor = Color.Green;
 
-                    //Task taskToCheckTime = Task.Run(() =>
-                    //{
-                    //    int minuteDiff = (60 - DateTime.Now.Minute) * 1000;
-                    //    checkDateTimer.Interval = minuteDiff;
-
-                    //    if (hour == DateTime.Now.Hour)
-                    //    {
-                    //        checkDateTimer.Interval = 1000;
-                    //    }
-
-                    //    checkDateTimer.Start();
-                    //});
+                    // Calculate the difference in minutes to the next hour and convert it to milliseconds.
                     int minuteDiff = (60 - DateTime.Now.Minute) * 1000;
-                    checkDateTimer.Interval = minuteDiff;
+                    checkDateTimer.Interval = minuteDiff;// Set the timer's interval to this difference.
 
+                    // If the current hour equals the 'hour' variable, set the timer's interval to 1 second.
                     if (hour == DateTime.Now.Hour)
                     {
                         checkDateTimer.Interval = 1000;
@@ -313,7 +307,7 @@ namespace Copyfy.View
                     MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else
+            else// If the 'OnOff' button's color is not Red, execute the following code.
             {
                 if (checkDateTimer != null)
                 {

@@ -104,7 +104,7 @@ namespace Copyfy.View
             start.Location = new Point(this.ClientSize.Width - start.Width, this.ClientSize.Height - start.Height);
             this.Controls.Add(start);
         }
-        private void SSH(string ip, string username, string password)//connect to nas via ssh
+        private void SSH(string ip, string username, string password)// Connect to remote server using SSH protocol
         {
             log.Write("Trying to connect...");
 
@@ -177,7 +177,7 @@ namespace Copyfy.View
             //}
 
         }
-        private FileInfo? GetTgzFile(string software)
+        private FileInfo? GetTgzFile(string software) // Get the .tgz file from the specified software directory
         {
             try
             {
@@ -198,7 +198,7 @@ namespace Copyfy.View
             }
             return null;
         }
-        private void FillNasAddress()
+        private void FillNasAddress()// Read the NAS server details from a file
         {
             try
             {

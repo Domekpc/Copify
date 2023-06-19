@@ -50,15 +50,6 @@ namespace Copyfy.View
             set { name.Text = value; }
         }
 
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams cp = base.CreateParams;
-                cp.ExStyle |= 0x02000000;  // Turn on WS_EX_COMPOSITED
-                return cp;
-            }
-        }
         public LoadingScreen(List<DirControl> folders, string targetPath, bool automated = false)
         {
             InitializeComponent();
@@ -150,35 +141,39 @@ namespace Copyfy.View
         {
             try
             {
-                if(!automated)
+                if(!automated)// If not in automated mode, show the LoadingScreen form.
                     this.Show();
 
                 log.Write("Copying started!");
 
-                foreach (DirControl dir in dirsToCopy)
+                foreach (DirControl dir in dirsToCopy)// Loop through all directories to copy
                 {
                     log.Write($"Started to Copy {dir.fullName} to {targetPath}!");
+
                     copyingTime.Start();
 
+                    // Set the maximum value of the progress bars
                     checkPB.Maximum = (int)(dir.size / 1024);
                     copyPB.Maximum = (int)(dir.size / 1024);
 
-                    Copy copy = new Copy(dir.fullName, targetPath, automated);
+                    Copy copy = new Copy(dir.fullName, targetPath, automated);// Instantiate the Copy object and start the copy operation
 
                     copyingTime.Stop();
                     log.Write($"Duration: {String.Format("{0:00}:{1:00}:{2:00}", copyingTime.Elapsed.Hours, copyingTime.Elapsed.Minutes, copyingTime.Elapsed.Seconds)}");
 
-                    if (IsSoftware(dir.fullName))
+                    if (IsSoftware(dir.fullName))// Check if the directory is a software directory.
                     {
-                        if (!automated)
+                        if (!automated)// If not in automated mode, prompt the user to extract the software.
                         {
                             if (MessageBox.Show($"Do you want to extract software {dir.Name}?", "Extraction!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                             {
+                                // If user chooses Yes, instantiate the ExtractionScreen form and show it.
                                 ExtractionScreen exScreen = new ExtractionScreen(copy.copiedPath);
                                 exScreen.Show();
                             }
                         }else
                         {
+                            // If in automated mode, automatically start the ExtractionScreen form.
                             ExtractionScreen exScreen = new ExtractionScreen(copy.copiedPath, automated);
                         }
                     }
@@ -187,13 +182,15 @@ namespace Copyfy.View
             }
             catch(Exception ex)
             {
+                // If there is an exception during the copy operation
+                // and if not in automated mode, show the exception message
                 if (!automated)
                     MessageBox.Show(ex.Message, "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 log.Write(ex.Message);
                 this.Dispose();
             }
         }
-        private bool IsSoftware(string path)
+        private bool IsSoftware(string path)// Method to check if the path contains software
         {
             return path.Contains(softwareFolder);//if source path contains folder name "M248", then it is a software
         }

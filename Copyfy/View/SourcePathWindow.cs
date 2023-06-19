@@ -50,16 +50,16 @@ namespace Copyfy.View
         }
         private void CheckBoxEvents()
         {
-            //hogy mi történik a lambda függvényben, az magyarázatra szorul. Tesztelgetések után sikerült működőképesre megírni
+            
             foreach (ItemControl path in storage.items)
             {
                 path.SelectionChanged += (ItemControl sender, bool isChecked) =>
                 {
-                    if (isChecked)
+                    if (isChecked)  // If the ItemControl that fired the event is checked, execute the following code.
                     {
-                        for (int i = 0; i < storage.Count; i++)
+                        for (int i = 0; i < storage.Count; i++)// Loop through each ItemControl in the 'storage' list.
                         {
-                            if (i != storage.IndexOf(sender))
+                            if (i != storage.IndexOf(sender)) // If the current ItemControl is not the one that fired the event, execute the following code.
                             {
                                 storage[i].isChecked = false;
                                 storage[i].BackColor = Color.FromArgb(32, 30, 32);
